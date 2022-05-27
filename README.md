@@ -22,7 +22,7 @@
 <p><a href="https://www.buymeacoffee.com/yashsuthar"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="yashsuthar" /></a></p><br><br><hr>
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=yash-suthar&show_icons=true&locale=en&layout=compact" alt="yash-suthar" /></p>
-<hr>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=yash-suthar&show_icons=true&locale=en" alt="yash-suthar" /></p>
 
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=yash-suthar&show_icons=true&locale=en" alt="yash-suthar" /></p>
+<hr>
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=yash-suthar&" alt="yash-suthar" /></p>
