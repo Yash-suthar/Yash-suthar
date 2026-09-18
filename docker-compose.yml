@@ -1,0 +1,22 @@
+services:
+  portfolio:
+    build: .
+    container_name: yash-portfolio
+    restart: unless-stopped
+    ports:
+      - "4321:3000"
+    env_file:
+      - .env
+    environment:
+      PORT: 3000
+      HOSTNAME: 0.0.0.0
+    volumes:
+      - ./data:/app/data
+
+  portfolio-tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: yash-portfolio-tunnel
+    restart: unless-stopped
+    command: tunnel --no-autoupdate --url http://portfolio:3000
+    depends_on:
+      - portfolio

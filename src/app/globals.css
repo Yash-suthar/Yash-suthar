@@ -1,0 +1,162 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0c0d0f;
+  --bg-elevated: #16181c;
+  --fg: #f2efe8;
+  --muted: #9b968c;
+  --line: rgba(242, 239, 232, 0.12);
+  --accent: #d8a15a;
+  --accent-ink: #0c0d0f;
+  --heat: #c45c3e;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-heat: var(--heat);
+  --color-ink: var(--bg);
+  --font-display: var(--font-syne);
+  --font-sans: var(--font-outfit);
+  --font-mono: var(--font-ibm);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--fg);
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-outfit), sans-serif;
+  letter-spacing: 0.01em;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+@layer base {
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.grain {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.display {
+  font-family: var(--font-syne), sans-serif;
+}
+
+.mono {
+  font-family: var(--font-ibm), ui-monospace, monospace;
+}
+
+.viewfinder {
+  position: relative;
+}
+
+.viewfinder::before,
+.viewfinder::after {
+  content: "";
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border: 2px solid var(--accent);
+  z-index: 2;
+}
+
+.viewfinder::before {
+  top: -8px;
+  left: -8px;
+  border-right: 0;
+  border-bottom: 0;
+}
+
+.viewfinder::after {
+  right: -8px;
+  bottom: -8px;
+  border-left: 0;
+  border-top: 0;
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 32s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes rise {
+  from {
+    transform: translateY(12px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.rise {
+  animation: rise 0.6s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise,
+  .marquee-track {
+    animation: none;
+  }
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(244, 239, 230, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(244, 239, 230, 0.03) 1px, transparent 1px);
+  background-size: 72px 72px;
+}
+
+.scanlines {
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 3px,
+    rgba(0, 0, 0, 0.18) 4px
+  );
+}

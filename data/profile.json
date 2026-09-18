@@ -1,0 +1,146 @@
+{
+  "displayName": "Yashkumar Suthar",
+  "fullName": "Suthar Yashkumar Vishnubhai",
+  "shortName": "Yash",
+  "headline": "Full-stack engineer building React Native products, realtime systems, and web platforms.",
+  "availability": "Open to full-time roles",
+  "location": "Gujarat, India",
+  "email": "yashuthar.professional@gmail.com",
+  "phone": "+91 8511536051",
+  "github": "https://github.com/Yash-suthar",
+  "githubUsername": "Yash-suthar",
+  "linkedin": "https://www.linkedin.com/in/yash-suthar-163455226",
+  "about": "I ship production software across mobile and web. Since graduating from Gujarat Technological University in 2023, I have spent 3+ years building React Native apps and 1.5+ years delivering React, Next.js, Angular, and .NET platforms. Recent work includes a Play Store fintech product, a Kafka-backed ride-sharing system with Stripe payments, and marketplace, travel, and operations tools. I care about clean architecture, realtime UX, and software that holds up after launch.",
+  "stats": [
+    { "value": "3+", "label": "Years React Native" },
+    { "value": "15+", "label": "Shipped products" },
+    { "value": "1.5+", "label": "Years web / .NET" },
+    { "value": "2023", "label": "B.E. CSE, GTU" }
+  ],
+  "skillGroups": [
+    {
+      "label": "Languages",
+      "items": ["JavaScript", "C#", "Java", "C"]
+    },
+    {
+      "label": "Mobile & web",
+      "items": ["React Native", "React.js", "Next.js", "Angular", "Node.js"]
+    },
+    {
+      "label": "Backend",
+      "items": ["Express.js", ".NET", "Django", "Kafka"]
+    },
+    {
+      "label": "Data",
+      "items": ["MS SQL Server", "MySQL", "MongoDB", "PostgreSQL"]
+    },
+    {
+      "label": "Practice",
+      "items": ["Git", "GitLab", "CI/CD", "DSA", "Windows", "Linux", "macOS"]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer, Mobile & Full-Stack",
+      "organization": "Product engineering (contract / project delivery)",
+      "location": "Gujarat, India",
+      "period": "2023 — Present",
+      "bullets": [
+        "Delivered 15+ production applications spanning React Native, Next.js, Angular, Node.js, and .NET.",
+        "Built and shipped consumer mobile products with Play Store releases, monorepo shared packages, and Instagram-style product UX.",
+        "Designed realtime backends using Node.js, Kafka event streams, and Stripe payments for live tracking and booking flows.",
+        "Implemented business dashboards and e-commerce systems with React, Kendo UI, Angular, .NET, and SQL Server reporting.",
+        "Worked across the stack from UI architecture and API design to database modeling, Git-based delivery, and CI/CD."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "ArtMinter",
+      "period": "Jul 2023",
+      "stack": ["React Native", "Java"],
+      "summary": "Digital art marketplace with an Instagram-like feed for browsing, listing, and trading assets.",
+      "bullets": [
+        "Designed a social-style marketplace UI for discovering and trading digital art.",
+        "Implemented listing, feed, and transaction flows on React Native with a Java backend."
+      ]
+    },
+    {
+      "name": "Benzinga",
+      "period": "Mar 2024",
+      "stack": ["React Native"],
+      "summary": "Large-scale fintech application published on the Google Play Store.",
+      "bullets": [
+        "Contributed features inside a production fintech React Native app used by market audiences.",
+        "Worked in a monorepo with shared packages, release discipline, and store-ready mobile quality."
+      ]
+    },
+    {
+      "name": "Wave Driver / Rider",
+      "period": "Feb 2024",
+      "stack": ["React Native", "Node.js", "Kafka"],
+      "summary": "Ride-sharing platform with live tracking, payments, and event-driven services.",
+      "bullets": [
+        "Built driver and rider mobile experiences with realtime location tracking.",
+        "Integrated Stripe payments and Kafka-powered backend services for booking and trip events."
+      ]
+    },
+    {
+      "name": "Travel Hotline",
+      "period": "Apr 2024",
+      "stack": ["React Native", "Next.js"],
+      "summary": "All-in-one travel planning platform covering trips, rentals, and bookings.",
+      "bullets": [
+        "Shipped mobile and web surfaces for trip customization, rentals, and booking.",
+        "Connected React Native clients to a Next.js product layer for planning workflows."
+      ]
+    },
+    {
+      "name": "Wind Turbine Simulation",
+      "period": "Jan 2025",
+      "stack": ["React.js", "Kendo UI", ".NET", "SQL"],
+      "summary": "Business simulation modeling wind turbine operations, analytics, and reporting.",
+      "bullets": [
+        "Created an operations simulation with performance analytics and business reporting.",
+        "Built React + Kendo UI views on .NET APIs and SQL data for decision-making dashboards."
+      ]
+    },
+    {
+      "name": "E-Commerce Platform",
+      "period": "Aug 2025",
+      "stack": ["Angular", ".NET", "SQL"],
+      "summary": "End-to-end storefront with catalog, orders, and database-driven workflows.",
+      "bullets": [
+        "Implemented product management, checkout, and order processing on Angular and .NET.",
+        "Modeled SQL-backed workflows for catalog, inventory, and fulfillment."
+      ]
+    },
+    {
+      "name": "School Management System",
+      "period": "Nov 2025",
+      "stack": ["Django", "PostgreSQL", "Angular"],
+      "summary": "Campus operations suite for students, fees, and reporting.",
+      "bullets": [
+        "Delivered student, fees, and reporting modules with Angular clients and Django APIs.",
+        "Used PostgreSQL for academic and billing records."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "Gujarat Technological University",
+      "credential": "B.E. in Computer Science & Engineering",
+      "location": "Gujarat, India",
+      "year": "2023"
+    },
+    {
+      "school": "Vivekanand Vidhyalaya",
+      "credential": "Higher Secondary Certificate (HSC)",
+      "location": "Dhanera, Gujarat",
+      "year": "2018"
+    }
+  ],
+  "photoFile": "photo.jpg",
+  "resumeFile": "resume.pdf",
+  "resumeMode": "generated"
+}
